@@ -1,43 +1,24 @@
-:root {
-    --main-font: "weissAntiquaEF";
-    --font-weight-regular: 400;
-    --font-weight-medium: 500;
-    --font-weight-bold: 700
-}
 
-@font-face {
-  font-family: weissAntiquaEF;
-  src: url(weiss_antiqua_ef_regular.otf);  
-  font-weight: 400;
-}
-
-@font-face {
-font-family: weissAntiquaEF;
-  src: url(weiss_antiqua_ef_medium.otf);
+body {
+  font-family: 'Baskervville', sans-serif;
   font-weight: 500;
+  margin-left: auto;
+	margin-right: auto;
+
+	padding: 20px;
+  background-color: #ffe6bc;
 }
-  @font-face {
-  font-family: weissAntiquaEF;
-  src: url(weiss_antiqua_ef_bold.otf);
-  font-weight: 700;
-  }
 
-
-/* .header {
-background-color: #bcd6f6;
-text-align: center;
-font-weight: bold;
-font-family: weissAntiquaEF;
-} */
 
 .menu {
   background-color: #333;
   overflow: hidden;
+  font-family: 'Baskervville';
   margin:0;
   padding: 0;
 }
 
-/* Style the links inside the navigation bar */
+/* Style the links inside the navigation bar */ 
 .menu a {
   float: left;
   color: #f2f2f2;
@@ -50,7 +31,7 @@ font-family: weissAntiquaEF;
 
 .menu p{
     margin: 0;
-}
+} 
 /* Change the color of links on hover */
 .menu a:hover {
   background-color: #ddd;
@@ -66,31 +47,29 @@ font-family: weissAntiquaEF;
 
 p, ul {
 	/* font-size: 15px; */
-	font-family: var(--main-font), serif;
+	font-family: "Baskervville";
 }
 
 h1, h4 { 
-	font-family: var(--main-font), serif;
-    font-weight: var(--font-weight-bold);
+	font-family:  'Baskervville', monospace;
+    font-weight: bold;
 }
 
 table, th, td {
-	font-family: var(--main-font), serif;
+	font-family: 'Baskervville', monospace;
 	border-style: solid;
 	border-color: black;
 	border-width: thin;
 }
 
-.header {
-    padding: 1%;
-}
+
 	
 
-body {
-	/* background-color: #dec095; */
-    background-color: #ffe6bc;
-    margin: 0;
-}	
+
+
+/* .mainBody {
+  margin: 20;
+}  */
 	
 /* @media screen and (min-width: 400px){
 	body {
