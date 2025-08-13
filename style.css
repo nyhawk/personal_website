@@ -5,8 +5,8 @@ body {
   margin-left: auto;
 	margin-right: auto;
   color: rgb(31, 31, 31);
-	padding: 20px;
-  background-color: #ffe6bc;
+	padding: 1.25em;
+  background-color: #fff2dc;
   /* background-color: ivory; */
 }
 
@@ -25,12 +25,13 @@ body {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0.875em 1em;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1em;
   margin: 0;
 }
 
+/* style any non-links in the nav bar */
 .menu p{
     margin: 0;
 } 
@@ -50,11 +51,13 @@ body {
 p, ul {
 	/* font-size: 15px; */
 	font-family: "Crimson Pro", sans-serif;
+  font-size: 1.5em;
 }
 
 h1, h4 { 
 	font-family:  'Crimson Pro', sans-serif;
     font-weight: bold;
+   
 }
 
 table, th, td {
@@ -62,6 +65,23 @@ table, th, td {
 	border-style: solid;
 	border-color: rgb(31, 31, 31);
 	border-width: thin;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.7em;
+  text-decoration: underline;
 }
 
 
